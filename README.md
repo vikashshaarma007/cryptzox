@@ -12,10 +12,9 @@
 ![image](https://github.com/user-attachments/assets/65b1e0ea-f023-4f15-9c16-4efcf6fc2b2e)
 
 
-" /></a>
+
 ## Fetch top 10 results from API(https://api.wazirx.com/api/v2/tickers) in your Database (PostgreSQL).
 ![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
-" /></a>
 
 
 The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox, and the platform has been deployed on render. 
