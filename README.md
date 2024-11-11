@@ -13,7 +13,7 @@
 
 
 
-## Fetch top 10 results from API(https://api.wazirx.com/api/v2/tickers) in your Database (PostgreSQL).
+## Fetch top 10 results from API(https://api.wazirx.com/api/v2/tickers) in the Database (PostgreSQL).
 ![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
 
 
@@ -99,5 +99,5 @@ _Follow these simple steps to get the server up and running 👾🧮🚀✅._
 5.  Hibernate will automatically create a table -> student
 6.  Add sample data to the table using Postgresql pgadmin tools
 7.  Open web browser at localhost: 8080/
-8.  Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit database (PostgreSQL).
+8.  Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit in the database (PostgreSQL).
   
