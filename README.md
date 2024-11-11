@@ -6,12 +6,17 @@
 <p align="center"><i>Looking forward to working with you QuadB Tech!</i> 👨🏽‍💻 </p>
 <br>
 
-## Website
+## To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
+
+![image](https://github.com/user-attachments/assets/775c20c1-7de6-4af6-933c-7946a7593964)
+![image](https://github.com/user-attachments/assets/65b1e0ea-f023-4f15-9c16-4efcf6fc2b2e)
 
 
-
-<a href=""><img src="![HoDlinfo](https://github.com/user-attachments/assets/a1dcae99-e60c-4d39-a6e1-1744ba1d39de)
 " /></a>
+## Fetch top 10 results from API(https://api.wazirx.com/api/v2/tickers) in your Database (PostgreSQL).
+![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
+" /></a>
+
 
 The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox, and the platform has been deployed on render. 
 
@@ -47,7 +52,7 @@ Built With :
 * CSS
 * JavaScript
 * Thymeleaf
-* Backend Deployed on : render.com
+* Spring Jpa
 * PostgreSQL database Hosted on : 
 * Sequelize : to interact with the PostgreSQL database
 
@@ -76,6 +81,12 @@ Built With :
   ```
   * to build the project for production
   ```sh
+ 1. Go to start.spring.io.
+ 2. Choose Maven, set Group and Artifact names.
+ 3. Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
+ 4. Click Generate to download the project as a .zip file.
+ 5. Extract and import it into your IDE.
+ 6. Run the main method in DemoApplication.java to start the app.
  https://start.spring.io/
   ```
 ### Installation 
@@ -89,4 +100,5 @@ _Follow these simple steps to get the server up and running 👾🧮🚀✅._
 5.  Hibernate will automatically create a table -> student
 6.  Add sample data to the table using Postgresql pgadmin tools
 7.  Open web browser at localhost: 8080/
-8.    
+8.  Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit database (PostgreSQL).
+  
