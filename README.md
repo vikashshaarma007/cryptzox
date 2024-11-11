@@ -13,7 +13,7 @@
 <a href=""><img src="![HoDlinfo](https://github.com/user-attachments/assets/a1dcae99-e60c-4d39-a6e1-1744ba1d39de)
 " /></a>
 
-The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on NeonDB, and the platform has been deployed on render. 
+The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox, and the platform has been deployed on render. 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -59,7 +59,7 @@ Built With :
 
 ### Prerequisites
 
-* npm
+* dependencies
   ```sh
   
   dependencies : 
