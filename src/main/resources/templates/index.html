@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link th:href="@{/css/styles.css}" rel="stylesheet"/> 
+    <title>HodlInfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HODLINFO</h1>
+            <div class="currency-selection">
+                <button class="currency-btn">INR ▼</button>
+                <button class="currency-btn">BTC ▼</button>
+                <a href="https://wazirx.com/signup">
+                    <button class="currency-btn">Buy BTC</button>
+                </a>
+            </div>
+            <div class="connect-telegram">
+                <div id="indicator">60 seconds remaining</div>
+                <a href="https://hodlinfo.com/connect/telegram">
+                    <button class="connect-btn">
+                        <i class="fas fa-paper-plane"></i> Connect Telegram
+                    </button>
+                </a>
+                <label class="switch">
+                    <input type="checkbox" id="modeSwitch">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+        
+        <main>
+            <div class="price-info">
+                <div class="price-change">
+                    <span class="info">0.93 %</span>
+                    <p class="sub-info">5 Mins</p>
+                </div>
+                <div class="price-change">
+                    <span class="info">1.7 %</span>
+                    <p class="sub-info">1 Hour</p>
+                </div>
+                <div class="best-price">
+                    <h2><span id="best-price-info" th:text="'₹' + ${avgBuy}"></span></h2>
+                    <p class="sub-info">Average BTC/INR net price including commission</p>
+                </div>
+                <div class="price-change">
+                    <span class="info">11.05 %</span>
+                    <p class="sub-info">1 Day</p>
+                </div>
+                <div class="price-change">
+                    <span class="info">15.84 %</span>
+                    <p class="sub-info">7 Days</p>
+                </div>
+            </div>
+            <div id="app"></div>
+            <div id="loader" style="display: none;"></div>
+        </main>
+   
+	
+	   <!--<div class="table-responsive" style="float: left; width: 100%;"> -->
+		    <table class="table" id="RecipeIngredientTable2" >
+		        <thead>
+		            <tr>
+		                <th>#</th>
+		                <th>Platform</th>
+		                <th>Last Traded Price</th>
+		                <th>Buy / Sell Price</th>
+		                <th>Difference</th>
+		                <th>Savings</th>
+		            </tr>
+		        </thead>
+		        <tbody class="tbody-scroll" >
+					<!-- Initial Rows -->
+									<tr th:each="ticker : ${listTicker}">
+									    <td th:text="${ticker.id}"></td>
+									    <td th:text="${ticker.name}"></td>
+									    <td ><span th:text="'₹' + ${#numbers.formatDecimal(ticker.last, 1, 2)}"></span></td>
+										
+										<td th:text="|₹${ticker.buy} / ₹${ticker.sell}|"></td>
+
+									    <!--<td th:text="'₹' + ticker.buy + ' / ₹' + ticker.sell"></td> --> 
+									    <td th:class="${(ticker.sell - ticker.buy) / 100 > 0} ? 'positive' : 'negative'">
+											<span th:text="${#numbers.formatDecimal((ticker.sell - ticker.buy) / 100, 1, 2)}"></span>
+					
+											<span th:text="${'₹' + #numbers.formatDecimal((ticker.sell - ticker.buy) / 100, 1, 2)}"></span>						
+					
+									    </td>
+									    <td th:class="${ticker.sell - ticker.buy > 0} ? 'positive' : 'negative'">
+									        <span th:text="${ticker.sell - ticker.buy > 0} ? '▲' : '▼'"></span>
+											<span th:text="${'₹' + #numbers.formatDecimal(ticker.sell - ticker.buy, 1, 2)}"></span>
+									    </td>
+									</tr>
+				</tbodyclass="tbody-scroll">
+		        
+		    </table>
+			<!--</div>-->
+			<div class="bottom">
+			            <p>Copyright © 2019</p>
+			            <p>HodlInfo.com</p>
+			            <p>Support</p>
+			        </div>
+    </div>
+	
+			
+			<script th:src="@{/js/app.js}"></script>
+    
+			
+</body>
+<footer class="fixed-footer">
+    <button class="add-home-btn">Add HodlInfo to homescreen</button>
+</footer>
+</html>
