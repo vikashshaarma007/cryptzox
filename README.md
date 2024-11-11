@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
 
 
-The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox, and the platform has been deployed on render. 
+The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox. 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -80,13 +80,13 @@ Built With :
   ```
   * to build the project for production
   ```sh
- 1. Go to start.spring.io.
- 2. Choose Maven, set Group and Artifact names.
- 3. Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
- 4. Click Generate to download the project as a .zip file.
- 5. Extract and import it into your IDE.
- 6. Run the main method in DemoApplication.java to start the app.
- https://start.spring.io/
+  Go to start.spring.io.
+  Choose Maven, set Group and Artifact names.
+  Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
+  Click Generate to download the project as a .zip file.
+  Extract and import it into your IDE.
+  Run the main method in DemoApplication.java to start the app.
+  https://start.spring.io/
   ```
 ### Installation 
 
