@@ -93,7 +93,7 @@ Built With :
 _Follow these simple steps to get the server up and running 👾🧮🚀✅._
 
 1.  API Used : https://api.wazirx.com/api/v2/tickers
-2.  Create Database -> SMS
+2.  Create Database -> cryptzox
 3.  Open project in preferred IDE (I used SpringToolsSuite4)
 4.  Run the project as a Spring Boot app.
 5.  Hibernate will automatically create a table -> student
