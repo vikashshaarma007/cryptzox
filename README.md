@@ -17,7 +17,9 @@
 ![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
 
 
-The Hodlinfo website allows you to easily purchase and trade cryptocurrency and obtain all the information you need about it in one location. To render the frontend with updated data, the platform uses the backend to retrieve data from the Wazirax API, stores it in the database, and then retrieves the new data from the database every 60 seconds. PostgreSQL is being installed on cryptzox. 
+1. All-in-One Cryptocurrency Platform: The Hodlinfo website enables users to easily purchase, trade cryptocurrency, and access updated information in a single location.
+2. Backend Integration with WazirX API: The platform's backend fetches data from the WazirX API, stores it in the database, and ensures the frontend is updated with the latest data every 60 seconds.
+3. 1.Database Setup with PostgreSQL: PostgreSQL is being installed on Cryptzox to manage and retrieve the cryptocurrency data efficiently. 
 
 <!-- TABLE OF CONTENTS -->
 <details>
