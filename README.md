@@ -6,7 +6,7 @@
 <p align="center"><i>Looking forward to working with you QuadB Tech!</i> 👨🏽‍💻 </p>
 <br>
 
-## To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
+##  To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
  1. All-in-One Cryptocurrency Platform: The Hodlinfo website enables users to easily purchase, trade cryptocurrency, and access updated information in a single location.
 2.  Backend Integration with WazirX API: The platform's backend fetches data from the WazirX API, stores it in the database, and ensures the frontend is updated with the latest data every 60 seconds.
 3.  Database Setup with PostgreSQL: PostgreSQL is being installed on Cryptzox to manage and retrieve the cryptocurrency data efficiently.
