@@ -3,7 +3,7 @@
 
 <br>
 
-<p align="center"><i>Looking forward to working with you QuadB Tech!</i> 👨🏽‍💻 </p>
+<p</i> 👨🏽‍💻 </p>
 <br>
 
 ##  To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
