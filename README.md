@@ -42,31 +42,20 @@
   </ol>
 </details>
 
+  Built With : 
+  * Java 
+  * Spring-Boot
+  * PostgreSQL
+  * HTML
+  * CSS
+  * JavaScript
+  * Thymeleaf
+  * Spring Jpa
+  * PostgreSQL database Hosted on : 
+  * Sequelize : to interact with the PostgreSQL database
 
-
-Built With : 
-* Java 
-* Spring-Boot
-* PostgreSQL
-* HTML
-* CSS
-* JavaScript
-* Thymeleaf
-* Spring Jpa
-* PostgreSQL database Hosted on : 
-* Sequelize : to interact with the PostgreSQL database
-
-  <!-- GETTING STARTED -->
-## Getting Started
-
- Instructions to set up the project locally.
- To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-* dependencies
+  * dependencies
   ```sh
-  
   dependencies : 
   Spring Boot DevTools
   Spring Data Jpa
@@ -74,31 +63,54 @@ Built With :
   Thymeleaf
   Spring Web
   Spring Web Services
-  ```
-* to run the project
-  ```sh
-  intellij/eclipse
-  ```
-  * to build the project for production
-  ```sh
-  Go to start.spring.io.
-  Choose Maven, set Group and Artifact names.
-  Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
-  Click Generate to download the project as a .zip file.
-  Extract and import it into your IDE.
-  Run the main method in DemoApplication.java to start the app.
-  https://start.spring.io/
-  ```
-### Installation 
 
-_Follow these simple steps to get the server up and running 👾🧮🚀✅._
+  
+ <!-- GETTING STARTED -->
+  ## Getting Started
 
-1.  API Used : https://api.wazirx.com/api/v2/tickers
-2.  Create Database -> cryptzox
-3.  Open project in preferred IDE (I used SpringToolsSuite4)
-4.  Run the project as a Spring Boot app.
-5.  Hibernate will automatically create a table -> student
-6.  Add sample data to the table using Postgresql pgadmin tools
-7.  Open web browser at localhost: 8080/
-8.  Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit in the database (PostgreSQL).
+   Instructions to set up the project locally.
+   To get a local copy up and running follow these simple example steps.
+
+   ## Prerequisites
+   ```sh
+     1. Ensure the following tools are installed on your machine:
+     2. Java Development Kit (JDK) (preferably JDK 11 or higher).
+     3. Maven or Gradle (based on your project's build tool).
+     4. Git for cloning the repository.
+     5. IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
+
+  ```
+    * to build the project for production
+     ```sh
+    Go to start.spring.io.
+    Choose Maven, set Group and Artifact names.
+    Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
+    Click Generate to download the project as a .zip file.
+    Extract and import it into your IDE.
+    Run the main method in DemoApplication.java to start the app.
+     https://start.spring.io/
+  ```
+  ## Installation 
+   Follow these simple steps to get the server up and running 👾🧮🚀✅.
+  1. Clone the repo
+     
+     ```sh
+      git clone https://github.com/your_username_/Project-Name.git
+     ```
+  2. Run the Project
+   ```sh
+    1. API Used : https://api.wazirx.com/api/v2/tickers
+    2. Create Database -> cryptzox
+    3. Open project in preferred IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
+    4. Run the project as a Spring Boot app.
+    5. Locate the class annotated with @SpringBootApplication.
+    6. Right-click and select "Run" or "Debug".
+    7. Hibernate will automatically create a table -> cryptzox
+    8. Add sample data to the table using Postgresql pgadmin tools
+    9. Ren web browser at localhost: 8080/
+    10. Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit in the database (PostgreSQL).
+   ```
+
+
+
   
