@@ -54,7 +54,7 @@
   * PostgreSQL database Hosted on : 
   * Sequelize : to interact with the PostgreSQL database
 
-  * dependencies
+  ## Dependencies
   ```sh
   dependencies : 
   Spring Boot DevTools
@@ -63,13 +63,14 @@
   Thymeleaf
   Spring Web
   Spring Web Services
-
+   ```
   
  <!-- GETTING STARTED -->
   ## Getting Started
-
-   Instructions to set up the project locally.
-   To get a local copy up and running follow these simple example steps.
+  ```sh
+       Instructions to set up the project locally.
+       To get a local copy up and running follow these simple example steps.
+ ```
 
    ## Prerequisites
    ```sh
@@ -80,7 +81,7 @@
      5. IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
 
   ```
-    * to build the project for production
+   ## To build the project for production
      ```sh
     Go to start.spring.io.
     Choose Maven, set Group and Artifact names.
@@ -89,8 +90,8 @@
     Extract and import it into your IDE.
     Run the main method in DemoApplication.java to start the app.
      https://start.spring.io/
-  ```
-  ## Installation 
+    ```
+ ## Installation 
    Follow these simple steps to get the server up and running 👾🧮🚀✅.
   1. Clone the repo
      
