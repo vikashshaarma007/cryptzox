@@ -56,13 +56,13 @@
 
   ## Dependencies
   ```sh
-  dependencies : 
-  Spring Boot DevTools
-  Spring Data Jpa
-  PostgreSQL Driver
-  Thymeleaf
-  Spring Web
-  Spring Web Services
+    * dependencies : 
+    * Spring Boot DevTools
+    * Spring Data Jpa
+    * PostgreSQL Driver
+    * Thymeleaf
+    * Spring Web
+    * Spring Web Services
    ```
   
  <!-- GETTING STARTED -->
@@ -83,13 +83,12 @@
   ```
    ## To build the project for production
      ```sh
-    Go to start.spring.io.
-    Choose Maven, set Group and Artifact names.
-    Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
-    Click Generate to download the project as a .zip file.
-    Extract and import it into your IDE.
-    Run the main method in DemoApplication.java to start the app.
-     https://start.spring.io/
+     1. Go to start.spring.io.
+     2. Choose Maven, set Group and Artifact names.
+     3. Pick Java version and add any dependencies (e.g., Spring Web, Spring JPA).
+     4. Click Generate to download the project as a .zip file.
+     5. Extract and import it into your IDE.
+     6. Run the main method in DemoApplication.java to start the app.
     ```
  ## Installation 
    Follow these simple steps to get the server up and running 👾🧮🚀✅.
