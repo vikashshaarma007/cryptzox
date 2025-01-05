@@ -3,8 +3,9 @@
 
 <br>
 
-<p></i> 👨🏽‍💻 </p>
+<p></i>  </p>
 <br>
+## Cryptzox Application 👨🏽‍💻
 
 ##  To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
  1. All-in-One Cryptocurrency Platform: The Hodlinfo website enables users to easily purchase, trade cryptocurrency, and access updated information in a single location.
@@ -73,14 +74,13 @@
  ```
 
    ## Prerequisites
-   ```sh
+    ```sh
      1. Ensure the following tools are installed on your machine:
      2. Java Development Kit (JDK) (preferably JDK 11 or higher).
      3. Maven or Gradle (based on your project's build tool).
      4. Git for cloning the repository.
      5. IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
-
-  ```
+    ```
    ## To build the project for production
      ```sh
      1. Go to start.spring.io.
@@ -90,26 +90,27 @@
      5. Extract and import it into your IDE.
      6. Run the main method in DemoApplication.java to start the app.
     ```
- ## Installation 
-   Follow these simple steps to get the server up and running 👾🧮🚀✅.
-  1. Clone the repo
+   ## Installation 
+       Follow these simple steps to get the server up and running 👾🧮🚀✅.
+       1. Clone the repo
+     
+        ```sh
+         git clone https://github.com/your_username_/Project-Name.git
+        ```
+     2. Run the Project
      
      ```sh
-      git clone https://github.com/your_username_/Project-Name.git
-     ```
-  2. Run the Project
-   ```sh
-    1. API Used : https://api.wazirx.com/api/v2/tickers
-    2. Create Database -> cryptzox
-    3. Open project in preferred IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
-    4. Run the project as a Spring Boot app.
-    5. Locate the class annotated with @SpringBootApplication.
-    6. Right-click and select "Run" or "Debug".
-    7. Hibernate will automatically create a table -> cryptzox
-    8. Add sample data to the table using Postgresql pgadmin tools
-    9. Ren web browser at localhost: 8080/
-    10. Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit in the database (PostgreSQL).
-   ```
+     1. API Used : https://api.wazirx.com/api/v2/tickers
+     2. Create Database -> cryptzox
+     3. Open project in preferred IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
+     4. Run the project as a Spring Boot app.
+     5. Locate the class annotated with @SpringBootApplication.
+     6. Right-click and select "Run" or "Debug".
+     7. Hibernate will automatically create a table -> cryptzox
+     8. Add sample data to the table using Postgresql pgadmin tools
+     9. Ren web browser at localhost: 8080/
+     10. Express server and store name, latest of each of the top 10 results of the database, buy, sell, volume and base_unit in the database (PostgreSQL).
+    ```
 
 
 
