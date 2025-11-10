@@ -13,8 +13,8 @@
   2.  Backend Integration with WazirX API: The platform's backend fetches data from the WazirX API, stores it in the database, and ensures the frontend is updated with the latest data every 60 seconds.
   3.  Database Setup with PostgreSQL: PostgreSQL is being installed on Cryptzox to manage and retrieve the cryptocurrency data efficiently.
 
-  ![image](https://github.com/user-attachments/assets/775c20c1-7de6-4af6-933c-7946a7593964)
-  ![image](https://github.com/user-attachments/assets/65b1e0ea-f023-4f15-9c16-4efcf6fc2b2e)
+ <img width="1867" height="827" alt="image" src="https://github.com/user-attachments/assets/bcc53b98-043a-4f50-96a2-6c4b30b3c41e" />
+ <img width="1853" height="372" alt="image" src="https://github.com/user-attachments/assets/844ba62e-cab4-4b65-b689-6394c41c7222" />
 
 
 
