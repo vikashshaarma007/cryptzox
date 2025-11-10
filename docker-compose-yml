@@ -1,0 +1,28 @@
+sversion: "3.8"
+
+ services:
+   app:
+     image: your-spring-boot-app:latest
+     build:
+       context: .
+       dockerfile: Dockerfile
+     ports:
+       - "8080:8080"
+     environment:
+       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/crytzox
+       SPRING_DATASOURCE_USERNAME: root
+       SPRING_DATASOURCE_PASSWORD: root
+       SPRING_JPA_HIBERNATE_DDL_AUTO: update
+     depends_on:
+       - postgres
+
+   postgres:
+     image: postgres:15
+     ports:
+       - "5432:5432"
+     environment:
+       POSTGRES_USER: root
+       POSTGRES_PASSWORD: root
+       POSTGRES_DB: crytzox
+     volumes:
+       - ./postgres_data:/var/lib/postgresql/data

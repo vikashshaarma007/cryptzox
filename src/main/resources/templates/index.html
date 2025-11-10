@@ -74,15 +74,16 @@
 		            </tr>
 		        </thead>
 		        <tbody class="tbody-scroll" >
-					<!-- Initial Rows -->
-									<tr th:each="ticker : ${listTicker}">
-									    <td th:text="${ticker.id}"></td>
+					<!-- Initial Rows 
+									<tr th:each="ticker, iStat : ${listTicker}">
+									   <!- <td th:text="${ticker.id}"></td> ->
+									   <td th:text="${iStat.index + 1}"></td>
 									    <td th:text="${ticker.name}"></td>
 									    <td ><span th:text="'₹' + ${#numbers.formatDecimal(ticker.last, 1, 2)}"></span></td>
 										
 										<td th:text="|₹${ticker.buy} / ₹${ticker.sell}|"></td>
 
-									    <!--<td th:text="'₹' + ticker.buy + ' / ₹' + ticker.sell"></td> --> 
+									    <!-<td th:text="'₹' + ticker.buy + ' / ₹' + ticker.sell"></td> -> 
 									    <td th:class="${(ticker.sell - ticker.buy) / 100 > 0} ? 'positive' : 'negative'">
 											<span th:text="${#numbers.formatDecimal((ticker.sell - ticker.buy) / 100, 1, 2)}"></span>
 					
@@ -93,7 +94,7 @@
 									        <span th:text="${ticker.sell - ticker.buy > 0} ? '▲' : '▼'"></span>
 											<span th:text="${'₹' + #numbers.formatDecimal(ticker.sell - ticker.buy, 1, 2)}"></span>
 									    </td>
-									</tr>
+									</tr> -->
 				</tbodyclass="tbody-scroll">
 		        
 		    </table>
