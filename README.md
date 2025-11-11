@@ -5,7 +5,7 @@
 ---
 
 ### 🌐 **Live Demo**
-🔗 **[Visit Cryptzox Live](https://cryptzox-4odh.onrender.com(https://cryptzox-4odh.onrender.com)**
+🔗 **[Visit Cryptzox Live](https://cryptzox-4odh.onrender.com)**
 
 ---
 
