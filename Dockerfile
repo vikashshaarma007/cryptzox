@@ -29,7 +29,7 @@ RUN mvn clean package -DskipTests
 # =============================
 # 2️⃣ Runtime Stage
 # =============================
-FROM eclipse-temurin:17-jdk-slim
+FROM eclipse-temurin:17-jdk-jammy
 
 # Set working directory
 WORKDIR /app
