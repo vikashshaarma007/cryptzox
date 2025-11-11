@@ -8,8 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-
 
 import edu.qs.application.entity.Ticker;
 import edu.qs.application.repostiory.TickerRepository;
@@ -35,12 +33,13 @@ public class TickerController {
 
     
     @GetMapping("/fetch")
-    @ResponseBody
-    public ResponseEntity<List<Ticker>> fetchAndReturnUpdatedTickers() {
-        tickerService.fetchData();
+    public String fetchAndRedirect(Model model) {
+        tickerService.fetchData();  // updates DB
         List<Ticker> updatedTickers = tickerRepository.findAll();
-        return ResponseEntity.ok(updatedTickers);
-    }
+        model.addAttribute("listTicker", updatedTickers);
+        return "index"; // Thymeleaf will render index.html again
+}
+
 
 
     
