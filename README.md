@@ -9,30 +9,62 @@
 
 ---
 
-### 🧩 **Tech Stack**
-- **Backend:** Spring Boot 3.3.5 (Java 17)
-- **Frontend:** Thymeleaf, HTML5, CSS3, Bootstrap
-- **Database:** PostgreSQL
-- **Deployment:** Render (Free Tier)
-- **API Integration:** WazirX Public API (for real-time market data)
+
+<h1 align="center">💹 Cryptzox Application 👨🏽‍💻</h1>
+<p align="center"><i>A Spring Boot–powered platform inspired by HodlInfo — track, trade, and explore cryptocurrencies effortlessly.</i></p>
 
 ---
 
-## Cryptzox Application 👨🏽‍💻
+### 🌍 **Project Overview**
+**Cryptzox** is a full-stack web application that replicates the features of **hodlinfo.com**, built using **Spring Boot**, **Thymeleaf**, **HTML**, **CSS**, and **JavaScript**.  
+It allows users to view live cryptocurrency prices, fetched directly from the **WazirX API**, and displays them in an intuitive and responsive interface.
 
- To create this webpage hodlinfo.com by using HTML, CSS, JavaScript and backend using Spring Boot.
-  1.  All-in-One Cryptocurrency Platform: The Hodlinfo website enables users to easily purchase, trade cryptocurrency, and access updated information in a single location.
-  2.  Backend Integration with WazirX API: The platform's backend fetches data from the WazirX API, stores it in the database, and ensures the frontend is updated with the latest data every 60 seconds.
-  3.  Database Setup with PostgreSQL: PostgreSQL is being installed on Cryptzox to manage and retrieve the cryptocurrency data efficiently.
+---
 
- <img width="1867" height="827" alt="image" src="https://github.com/user-attachments/assets/bcc53b98-043a-4f50-96a2-6c4b30b3c41e" />
+<img width="1867" height="827" alt="image" src="https://github.com/user-attachments/assets/bcc53b98-043a-4f50-96a2-6c4b30b3c41e" />
  <img width="1853" height="372" alt="image" src="https://github.com/user-attachments/assets/844ba62e-cab4-4b65-b689-6394c41c7222" />
 
 
 
 ## Fetch top 10 results from API(https://api.wazirx.com/api/v2/tickers) in the Database (PostgreSQL).
 ![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
- 
+
+### ⚙️ **Key Features**
+
+1. **All-in-One Cryptocurrency Dashboard**  
+   View and monitor real-time prices of various cryptocurrencies in one place.
+
+2. **Backend Integration with WazirX API**  
+   - The backend periodically fetches the latest market data from the WazirX public API.  
+   - Data is stored and updated in the PostgreSQL database every **60 seconds**.  
+   - The frontend dynamically reflects the updated prices.
+
+3. **Efficient Database Management with PostgreSQL**  
+   - All fetched data is saved using **Spring Data JPA** for persistence.  
+   - PostgreSQL ensures fast and reliable data retrieval.
+
+---
+
+### 🧩 **Tech Stack**
+| Layer | Technology |
+|:------|:------------|
+| **Frontend** | HTML, CSS, Bootstrap, JavaScript, Thymeleaf |
+| **Backend** | Spring Boot (Java 17) |
+| **Database** | PostgreSQL |
+| **API Source** | WazirX Public API |
+| **Deployment** | Render (Free Cloud Hosting) |
+| **Build Tool** | Maven |
+
+---
+
+### 🐳 **Run Locally (with Docker)**
+```bash
+# Clone repository
+git clone https://github.com/your-username/cryptzox.git
+cd cryptzox
+
+# Build and run with Docker Compose
+docker-compose up --build
 
 <!-- TABLE OF CONTENTS -->
 <details>
