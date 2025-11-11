@@ -1,10 +1,22 @@
-<h1 align="center">Cryptzox using Spring Boot 🧮🚀</h1>
-<p align="center"><i>Now get all the crypto related information on a single platform</i></p>
+<h1 align="center">💹 Cryptzox — Real-Time Crypto Tracker using Spring Boot 🚀</h1>
 
-<br>
+<p align="center"><i>Get all the crypto-related information on a single platform — fast, simple, and dynamic.</i></p>
 
-<p></i>  </p>
-<br>
+---
+
+### 🌐 **Live Demo**
+🔗 **[Visit Cryptzox Live](https://cryptzox-4odh.onrender.com)**
+
+---
+
+### 🧩 **Tech Stack**
+- **Backend:** Spring Boot 3.3.5 (Java 17)
+- **Frontend:** Thymeleaf, HTML5, CSS3, Bootstrap
+- **Database:** PostgreSQL
+- **Deployment:** Render (Free Tier)
+- **API Integration:** WazirX Public API (for real-time market data)
+
+---
 
 ## Cryptzox Application 👨🏽‍💻
 
