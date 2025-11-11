@@ -37,6 +37,8 @@ WORKDIR /app
 # Copy only the final jar from builder stage
 COPY --from=build /app/target/cryptzox-0.0.1-SNAPSHOT.jar app.jar
 
+
+
 # Expose the port Spring Boot runs on
 EXPOSE 8080
 
