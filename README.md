@@ -28,7 +28,7 @@ The application fetches top 10 cryptocurrencies from:
 
 Data is parsed and stored in the **PostgreSQL** database.
 
-![image](https://github.com/user-attachments/assets/84bfaaf8-dfbe-4941-b6a2-a0fbd4fdc2eb)
+<img width="1407" height="621" alt="image" src="https://github.com/user-attachments/assets/232ad647-990b-498e-b957-31c9bcbf46e0" />
 
 ---
 
