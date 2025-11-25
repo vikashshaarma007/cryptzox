@@ -31,7 +31,7 @@ public class TickerController {
         return "index"; // templates/index.html
     }
 
-    
+     
     @GetMapping("/fetch")
     public String fetchAndRedirect(Model model) {
         tickerService.fetchData();  // updates DB
@@ -41,8 +41,13 @@ public class TickerController {
 }
 
 
+/*
+    @GetMapping("/fetch")
+    public String fetchAndStoreTickers() {
+        tickerService.fetchData();
+        return "redirect:/index";
+    }*/
 
-    
     @GetMapping("/api/tickers")
     public ResponseEntity<List<Ticker>> getAllTickers() {
         List<Ticker> tickers = tickerService.getAllTickers();
